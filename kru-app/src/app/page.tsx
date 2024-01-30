@@ -1,5 +1,5 @@
 
-import { Button } from "@/components";
+import { Button, Typography } from "@/components";
 import React from "react";
 const Homepage = () => {
   const handleClick = () => {
@@ -15,6 +15,14 @@ const Homepage = () => {
       >
         Hello
       </Button>
+      <Typography
+        align="justify"
+        variant="bold"
+        fontSize="xl"
+        className="bg-amber-200"
+      >
+        សួស្ដីប្រូ !
+      </Typography>
     </div>
   );
 };
