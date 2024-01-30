@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Typography } from "./components";
+import { Typography } from "../components";
 
 export default function Home() {
   return (
