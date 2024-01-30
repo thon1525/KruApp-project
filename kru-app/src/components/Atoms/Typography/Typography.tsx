@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Typography() {
+const Typography = () => {
   return (
     <div>Typography</div>
   )

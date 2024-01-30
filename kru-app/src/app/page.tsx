@@ -1,10 +1,18 @@
-import Image from "next/image";
-import { Typography } from "../components";
+import { Button } from "@/components";
+import React from "react";
 
-export default function Home() {
+const Homepage = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <Typography />
-    </main>
+    <div>
+      <Button
+        isDisabled={true}
+        colorScheme="secondary"
+        className="border rounded-full px-4 py-2 w-[100px]"
+      >
+        Hello
+      </Button>
+    </div>
   );
-}
+};
+
+export default Homepage;

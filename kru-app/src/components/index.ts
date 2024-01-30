@@ -1,2 +1,1 @@
-import { Typography } from "./Atoms";
-export {Typography}
+export * from "./atoms"

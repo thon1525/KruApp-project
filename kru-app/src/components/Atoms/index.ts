@@ -1,2 +1,2 @@
-import { Typography } from "./Typography/Typography";
-export {Typography}
+export * from "./Button"
+export * from "./Typography"
